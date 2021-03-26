@@ -19,4 +19,5 @@ public class WelcomeRestController {
 	  public String hello2() {
 		 return "Ola mundo Rest 2";
 	 }
+	 
 }

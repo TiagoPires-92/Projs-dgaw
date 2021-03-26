@@ -18,9 +18,21 @@ public class WelcomeController {
 	}
 	
 
-	@RequestMapping(value = "/produtos", method = RequestMethod.GET)
-	public String bemVindo( Model model) {		
+	@RequestMapping(value = "/listarTodosProdutos", method = RequestMethod.GET)
+	public String listarTodosProdutos( Model model) {		
 		return "listarTodosProdutos";
+
+	}
+	
+	@RequestMapping(value = "/formulario", method = RequestMethod.GET)
+	public String formulario( Model model) {		
+		return "formulario";
+
+	}
+	
+	@RequestMapping(value = "/cadastraAtendimento", method = RequestMethod.POST)
+	public String cadastraAtendimento( Model model) {		
+		return "cadastraAtendimento";
 
 	}
 }
