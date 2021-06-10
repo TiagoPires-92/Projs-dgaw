@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"
-	import="com.aula.modelo.*,java.util.ArrayList"%>
+	import="com.aula.modelos.*,java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Resultado Cadastro Funcionario</title>
+<title>RESULTADO DO CADASTRO DE FUNCIONARIOS</title>
 </head>
 <body>
 
 	<%
+		
 	String nome = request.getParameter("nome");
 	String salario = request.getParameter("salario");
 	String setor = request.getParameter("setor");

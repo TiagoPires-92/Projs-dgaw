@@ -1,4 +1,4 @@
-package com.aula.modelo;
+package com.aula.modelos;
 
 
 public class FuncionarioModelo {

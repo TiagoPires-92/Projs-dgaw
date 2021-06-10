@@ -1,7 +1,8 @@
 package com.aula.dados;
 
 import java.util.ArrayList;
-import com.aula.modelo.FuncionarioModelo;
+
+import com.aula.modelos.FuncionarioModelo;
 
 public class FuncionarioRepositorio {
 
